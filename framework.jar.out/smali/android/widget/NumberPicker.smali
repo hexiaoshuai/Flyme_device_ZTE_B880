@@ -579,7 +579,7 @@
     .line 643
     new-instance v15, Ljava/lang/IllegalArgumentException;
 
-    const-string/jumbo v16, "minHeight > maxHeight"
+    const-string v16, "minHeight > maxHeight"
 
     invoke-direct/range {v15 .. v16}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -664,7 +664,7 @@
     .line 653
     new-instance v15, Ljava/lang/IllegalArgumentException;
 
-    const-string/jumbo v16, "minWidth > maxWidth"
+    const-string v16, "minWidth > maxWidth"
 
     invoke-direct/range {v15 .. v16}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -6162,7 +6162,7 @@
     .line 1471
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
-    const-string/jumbo v2, "maxValue must be >= 0"
+    const-string v2, "maxValue must be >= 0"
 
     invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
@@ -6248,7 +6248,7 @@
     .line 1433
     new-instance v1, Ljava/lang/IllegalArgumentException;
 
-    const-string/jumbo v2, "minValue must be >= 0"
+    const-string v2, "minValue must be >= 0"
 
     invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
