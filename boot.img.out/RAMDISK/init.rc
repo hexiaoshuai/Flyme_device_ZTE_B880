@@ -671,3 +671,19 @@ on property:persist.sys.gesture.enable=0
 service tunman /system/bin/tunman
 socket tunman stream 0666 system system
 class main
+
+service smbd /system/bin/smbd -D
+    user root
+    group bluetooth net_bt_admin
+    disabled
+    oneshot
+
+service nmbd /system/bin/nmbd -D
+    user root
+    group bluetooth net_bt_admin
+    disabled
+    oneshot
+
+service flymed /system/bin/flymed
+    class main
+    socket flymed stream 0660 root system
