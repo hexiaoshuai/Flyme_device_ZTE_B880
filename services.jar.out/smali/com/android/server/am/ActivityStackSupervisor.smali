@@ -11,6 +11,7 @@
     value = {
         Lcom/android/server/am/ActivityStackSupervisor$VirtualActivityDisplay;,
         Lcom/android/server/am/ActivityStackSupervisor$ActivityDisplay;,
+        Lcom/android/server/am/ActivityStackSupervisor$FlymeInjector;,
         Lcom/android/server/am/ActivityStackSupervisor$VirtualActivityContainer;,
         Lcom/android/server/am/ActivityStackSupervisor$ActivityContainer;,
         Lcom/android/server/am/ActivityStackSupervisor$ActivityStackSupervisorHandler;,
@@ -90,6 +91,10 @@
 
 
 # instance fields
+.field mFlymeAccessControlManager:Lmeizu/security/AccessControlManager;
+
+.field mRealPm:Lcom/android/server/pm/PackageManagerService;
+
 .field inResumeTopActivity:Z
 
 .field private mActivityContainers:Landroid/util/SparseArray;
@@ -16587,7 +16592,6 @@
 
     goto :goto_a
 
-    .line 1600
     .end local v28    # "e":Landroid/os/RemoteException;
     :cond_1b
     new-instance v7, Lcom/android/server/am/ActivityRecord;
@@ -23522,5 +23526,15 @@
 
     .prologue
     .line 3683
+    return-void
+.end method
+
+.method setPackageManager(Lcom/android/server/pm/PackageManagerService;)V
+    .locals 0
+    .param p1, "pm"    # Lcom/android/server/pm/PackageManagerService;
+
+    .prologue
+    iput-object p1, p0, Lcom/android/server/am/ActivityStackSupervisor;->mRealPm:Lcom/android/server/pm/PackageManagerService;
+
     return-void
 .end method
