@@ -2818,7 +2818,8 @@
     .locals 16
 
     .prologue
-    const v15, 0x108068f
+    #const v15, 0x108068f
+    sget v15, Lcom/flyme/internal/R$drawable;->mz_stat_sys_tether_general:I
 
     .line 552
     invoke-direct/range {p0 .. p0}, Lcom/android/server/connectivity/Tethering;->getConnectivityManager()Landroid/net/ConnectivityManager;
@@ -3236,7 +3237,8 @@
 
     .line 614
     :cond_9
-    const v12, 0x1080690
+    #const v12, 0x1080690
+    sget v12, Lcom/flyme/internal/R$drawable;->mz_stat_sys_tether_usb:I
 
     const-string v13, "usb"
 
@@ -3264,7 +3266,8 @@
 
     .line 620
     :cond_b
-    const v12, 0x80201e0
+    #const v12, 0x80201e0
+    sget v12, Lcom/flyme/internal/R$drawable;->mz_stat_sys_tether_wifi:I
 
     const-string v13, "wifi"
 
@@ -3279,7 +3282,8 @@
     if-eqz v3, :cond_d
 
     .line 623
-    const v12, 0x108068e
+    #const v12, 0x108068e
+    sget v12, Lcom/flyme/internal/R$drawable;->mz_stat_sys_tether_bluetooth:I
 
     const-string v13, "bt"
 

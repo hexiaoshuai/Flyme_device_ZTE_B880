@@ -8,6 +8,8 @@
     value = {
         Lcom/android/server/am/BroadcastQueue$AppNotResponding;,
         Lcom/android/server/am/BroadcastQueue$BroadcastHandler;,
+        Lcom/android/server/am/BroadcastQueue$PowerSupperInjector;,
+        Lcom/android/server/am/BroadcastQueue$FlymeBroadcastQueueInjector;,
         Lcom/android/server/am/BroadcastQueue$AnrBroadcastQueue;
     }
 .end annotation
@@ -8486,6 +8488,8 @@
     invoke-static {v4, v6}, Landroid/util/Slog;->v(Ljava/lang/String;Ljava/lang/String;)I
 
     :cond_39
+    invoke-static/range {v34 .. v34}, Lcom/android/server/am/BroadcastQueue$FlymeBroadcastQueueInjector;->setCurrentBroadcastRecord(Lcom/android/server/am/BroadcastRecord;)V
+
     move-object/from16 v0, p0
 
     iget-object v4, v0, Lcom/android/server/am/BroadcastQueue;->mService:Lcom/android/server/am/ActivityManagerService;

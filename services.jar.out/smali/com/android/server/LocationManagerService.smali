@@ -10076,6 +10076,16 @@
 
     .line 1968
     .local v1, "sanitizedRequest":Landroid/location/LocationRequest;
+    invoke-direct/range {p0 .. p0}, Lcom/android/server/LocationManagerService;->isFlymePermissionGranted()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_flyme_0
+
+    return-void
+
+    :cond_flyme_0
+
     const-string v0, "LocationManagerService"
 
     new-instance v2, Ljava/lang/StringBuilder;
