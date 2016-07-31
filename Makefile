@@ -55,8 +55,9 @@ vendor_modify_images := boot
 # You can configure the apk name in the vendor/system/app or vendor/system/pri-app directory.
 #-----------------------------------------------------------------------------
 vendor_saved_apps := Bluetooth KeyChain HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
-                     FusedLocation PrintSpooler SharedStorageBackup  ExternalStorageProvider InputDevices \
-                     ProxyHandler Shell DefaultContainerService Camera_ZTE
+                     FusedLocation PrintSpooler SharedStorageBackup  ExternalStorageProvider \
+                     ProxyHandler Shell DefaultContainerService SuperSU Camera_ZTE FmRadio_ZTE \
+                     shotcutKey MIPop KeyExchange zgesture
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.

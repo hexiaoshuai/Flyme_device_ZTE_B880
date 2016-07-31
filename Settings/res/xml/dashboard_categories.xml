@@ -29,9 +29,6 @@
         <dashboard-tile android:icon="@drawable/ic_settings_easymode" android:id="@id/easy_mode" android:title="@string/easy_mode" />
         <dashboard-tile android:icon="@drawable/ic_settings_display" android:id="@id/display_settings" android:title="@string/diaplay_and_brightness" android:fragment="com.meizu.settings.display.MzDisplaySettings" />
         <dashboard-tile android:icon="@drawable/ic_settings_security" android:id="@id/security_settings" android:title="@string/security_settings_title" android:fragment="com.meizu.settings.security.SecuritySettings" />
-        <dashboard-tile android:icon="@drawable/ic_settings_lock_fp" android:title="@string/fp_title">
-            <intent android:targetPackage="com.zte.fingerprints" android:action="com.zte.fingerprint.main.FingerSettingActivity" android:targetClass="com.zte.fingerprint.main.FingerSettingActivity" />
-        </dashboard-tile>
         <dashboard-tile android:icon="@drawable/ic_settings_language" android:id="@id/language_settings" android:title="@string/language_time" android:fragment="com.meizu.settings.language.LanguageAndDatetimeSettings" />
         <dashboard-tile android:icon="@drawable/ic_settings_accessibility" android:id="@id/accessibility_settings" android:title="@string/accessibility_settings" android:fragment="com.meizu.settings.accessibility.MZAccessibilitySettings" />
         <dashboard-tile android:icon="@drawable/ic_settings_dhj"  android:title="@string/keyexchange_title">
