@@ -521,7 +521,7 @@
 
     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    const/4 v3, 0x1
+    const/4 v3, 0x2
 
     .line 110
     invoke-virtual {v1, v2, v3}, Lcom/android/shotcutkey/shotcutKeyValue;->putIntbyKey(Ljava/lang/String;I)V

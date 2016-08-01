@@ -126,7 +126,7 @@
     iput v3, p0, Lcom/android/shotcutkey/selectAppActivity;->LONG_PRESS_MODE:I
 
     .line 45
-    const/4 v0, 0x2
+    const/4 v0, 0x3
 
     new-array v0, v0, [[I
 
@@ -149,12 +149,12 @@
     aput-object v1, v0, v4
 
     .line 53
-    #new-array v1, v3, [I
+    new-array v1, v3, [I
 
-    #fill-array-data v1, :array_2
+    fill-array-data v1, :array_2
 
     .line 54
-    #aput-object v1, v0, v3
+    aput-object v1, v0, v3
 
     #const/4 v1, 0x3
 
@@ -497,7 +497,7 @@
 
     invoke-virtual {v3}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
 
-    const/4 v3, 0x2
+    const/4 v3, 0x3
 
     if-lt v1, v3, :cond_1
 
