@@ -368,7 +368,7 @@
 
     move-result v2
 
-   if-eqz v2, :cond_3
+    if-eqz v2, :cond_3
 
     .line 1173
     invoke-static {}, Landroid/os/BuildExt;->isProductInternational()Z
@@ -382,7 +382,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d0098
+    const v3, #com.android.settings:array@preferred_network_mode_choices_intl#t
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -447,7 +447,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d0097
+    const v3, #com.android.settings:array@preferred_network_mode_choices_simple_mrvl#t
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -499,7 +499,7 @@
 
     move-result-object v2
 
-    const v3, 0x7f0d009f
+    const v3, #com.android.settings:array@preferred_network_mode_choices_simple#t
 
     invoke-virtual {v2, v3}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -2369,7 +2369,7 @@
     .locals 5
 
     .prologue
-    const v4, 0x7f0b0cee
+    const v4, #com.android.settings:string@data_sim_default_name#t
 
     const/4 v3, 0x1
 
@@ -2743,7 +2743,7 @@
     .locals 7
 
     .prologue
-    const v6, 0x7f0b0cce
+    const v6, #com.android.settings:string@no_sim_card#t
 
     const/4 v5, 0x1
 
@@ -2884,7 +2884,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b0ccb
+    const v5, #com.android.settings:string@sim_1#t
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -2921,7 +2921,7 @@
 
     move-result-object v4
 
-    const v5, 0x7f0b0ccc
+    const v5, #com.android.settings:string@sim_2#t
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3065,7 +3065,7 @@
     .locals 8
 
     .prologue
-    const v7, 0x7f0b0ccf
+    const v7, #com.android.settings:string@sim_disable#t
 
     const/4 v0, 0x1
 
@@ -3553,7 +3553,7 @@
 
     move-result-object v1
 
-    const v2, 0x7f0b0cca
+    const v2, #com.android.settings:string@flyme_push_dialog_content#t
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -3563,7 +3563,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f0b0cc9
+    const v1, #com.android.settings:string@flyme_push_dialog_title#t
 
     invoke-virtual {v0, v1}, Landroid/app/AlertDialog$Builder;->setTitle(I)Landroid/app/AlertDialog$Builder;
 
@@ -3740,7 +3740,7 @@
     if-eqz v12, :cond_2
 
     .line 433
-    const v12, 0x7f080043
+    const v12, #com.android.settings:xml@mz_ds_network_setting#t
 
     invoke-virtual {p0, v12}, Lcom/android/settings/MobileNetworkSettings;->addPreferencesFromResource(I)V
 
@@ -4003,7 +4003,7 @@
     .end local v2    # "isSecondaryUser":Z
     .end local v7    # "prefSet":Landroid/preference/PreferenceScreen;
     :cond_2
-    const v12, 0x7f080050
+    const v12, #com.android.settings:xml@network_setting#t
 
     invoke-virtual {p0, v12}, Lcom/android/settings/MobileNetworkSettings;->addPreferencesFromResource(I)V
 
@@ -4080,7 +4080,7 @@
 
     move-result-object v12
 
-    const v13, 0x7f0d0098
+    const v13, #com.android.settings:array@preferred_network_mode_choices_intl#t
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -4092,7 +4092,7 @@
 
     move-result-object v12
 
-    const v13, 0x7f0d009c
+    const v13, #com.android.settings:array@preferred_network_mode_values_intl_mrvl#t
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -4528,7 +4528,7 @@
 
     move-result-object v12
 
-    const v13, 0x7f0d0097
+    const v13, #com.android.settings:array@preferred_network_mode_choices_simple_mrvl#t
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -4540,7 +4540,7 @@
 
     move-result-object v12
 
-    const v13, 0x7f0d0099
+    const v13, #com.android.settings:array@preferred_network_mode_values_simple_mrvl#t
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -4557,7 +4557,7 @@
 
     move-result-object v12
 
-    const v13, 0x7f0d009f
+    const v13, #com.android.settings:array@preferred_network_mode_choices_simple#t
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -4569,7 +4569,7 @@
 
     move-result-object v12
 
-    const v13, 0x7f0d00a1
+    const v13, #com.android.settings:array@preferred_network_mode_values_simple#t
 
     invoke-virtual {v12, v13}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -5320,7 +5320,7 @@
 
     move-object/from16 v19, v0
 
-    const v20, 0x7f0b0d38
+    const v20, #com.android.settings:string@failed_sim_switch#t
 
     const/16 v21, 0x1
 
@@ -5941,7 +5941,7 @@
 
     move-result-object v3
 
-    const v4, 0x7f0b0114
+    const v4, #com.android.settings:string@roaming_warning#t
 
     invoke-virtual {v3, v4}, Landroid/content/res/Resources;->getString(I)Ljava/lang/String;
 
@@ -6103,7 +6103,7 @@
 
     iget-object v2, v0, Lcom/android/settings/MobileNetworkSettings;->mSimDataDisableToast:Lcom/meizu/settings/MzSettingsToast;
 
-    const v3, 0x7f0b0cd2
+    const v3, #com.android.settings:string@data_enable_forbidden#t
 
     const/4 v4, 0x0
 
@@ -6180,7 +6180,7 @@
 
     iget-object v2, v0, Lcom/android/settings/MobileNetworkSettings;->mSimDataDisableToast:Lcom/meizu/settings/MzSettingsToast;
 
-    const v3, 0x7f0b0cd2
+    const v3, #com.android.settings:string@data_enable_forbidden#t
 
     const/4 v4, 0x0
 
@@ -6409,7 +6409,7 @@
     .line 346
     const-string v4, "com.meizu.settings.MzSimInfoEditor"
 
-    const v5, 0x7f0b0cbe
+    const v5, #com.android.settings:string@sim_management#t
 
     const/4 v6, -0x1
 
@@ -6458,7 +6458,7 @@
     .line 352
     const-string v4, "com.meizu.settings.MzSimInfoEditor"
 
-    const v5, 0x7f0b0cbe
+    const v5, #com.android.settings:string@sim_management#t
 
     const/4 v6, -0x1
 
@@ -6494,7 +6494,7 @@
     .line 356
     const-string v10, "com.meizu.settings.DataSettingManagement"
 
-    const v11, 0x7f0b0cc1
+    const v11, #com.android.settings:string@data_enabled#t
 
     const/4 v12, -0x1
 
@@ -6544,7 +6544,7 @@
     .line 362
     const-string v10, "com.meizu.settings.ApnSettingManagement"
 
-    const v11, 0x7f0b03a4
+    const v11, #com.android.settings:string@apn_settings#t
 
     const/4 v12, -0x1
 
@@ -6587,7 +6587,7 @@
     .line 366
     const-string v4, "com.android.settings.ApnSettings"
 
-    const v5, 0x7f0b03a4
+    const v5, #com.android.settings:string@apn_settings#t
 
     const/4 v6, -0x1
 
@@ -6624,7 +6624,7 @@
     .line 370
     const-string v4, "com.android.settings.ApnSettings"
 
-    const v5, 0x7f0b03a4
+    const v5, #com.android.settings:string@apn_settings#t
 
     const/4 v6, -0x1
 
@@ -6670,7 +6670,7 @@
     .line 378
     const-string v10, "com.meizu.settings.NetworkSettingManagement"
 
-    const v11, 0x7f0b0117
+    const v11, #com.android.settings:string@networks#t
 
     const/4 v12, -0x1
 
@@ -6713,7 +6713,7 @@
     .line 382
     const-string v4, "com.android.settings.NetworkSetting"
 
-    const v5, 0x7f0b0117
+    const v5, #com.android.settings:string@networks#t
 
     const/4 v6, -0x1
 
@@ -6750,7 +6750,7 @@
     .line 386
     const-string v4, "com.android.settings.NetworkSetting"
 
-    const v5, 0x7f0b0117
+    const v5, #com.android.settings:string@networks#t
 
     const/4 v6, -0x1
 
@@ -6783,7 +6783,7 @@
     .line 392
     const-string v10, "com.meizu.settings.SimDataRoamingSettings"
 
-    const v11, 0x7f0b010f
+    const v11, #com.android.settings:string@roaming#t
 
     const/4 v12, -0x1
 
@@ -7015,7 +7015,7 @@
 
     move-result v10
 
-    #if-eqz v10, :cond_9
+    if-eqz v10, :cond_9
 
     .line 747
     invoke-static {}, Landroid/os/BuildExt;->isProductInternational()Z
@@ -7029,7 +7029,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0d0098
+    const v11, #com.android.settings:array@preferred_network_mode_choices_intl#t
 
     invoke-virtual {v10, v11}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -7041,7 +7041,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0d009c
+    const v11, #com.android.settings:array@preferred_network_mode_values_intl_mrvl#t
 
     invoke-virtual {v10, v11}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -7322,7 +7322,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0d0097
+    const v11, #com.android.settings:array@preferred_network_mode_choices_simple_mrvl#t
 
     invoke-virtual {v10, v11}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -7334,7 +7334,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0d0099
+    const v11, #com.android.settings:array@preferred_network_mode_values_simple_mrvl#t
 
     invoke-virtual {v10, v11}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -7358,7 +7358,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0d009f
+    const v11, #com.android.settings:array@preferred_network_mode_choices_simple#t
 
     invoke-virtual {v10, v11}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
@@ -7370,7 +7370,7 @@
 
     move-result-object v10
 
-    const v11, 0x7f0d00a1
+    const v11, #com.android.settings:array@preferred_network_mode_values_simple#t
 
     invoke-virtual {v10, v11}, Landroid/content/res/Resources;->getStringArray(I)[Ljava/lang/String;
 
