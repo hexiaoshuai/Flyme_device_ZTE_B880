@@ -1,4 +1,4 @@
-.class public Lahp;
+.class public Lahq;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lahp$a;
+        Lahq$a;
     }
 .end annotation
 
@@ -18,7 +18,7 @@
 
 .field public static c:[Ljava/lang/String;
 
-.field public static d:[Laia$a;
+.field public static d:[Laib$a;
 
 .field public static e:I
 
@@ -37,7 +37,7 @@
         value = {
             "Ljava/util/HashSet",
             "<",
-            "Lahp$a;",
+            "Lahq$a;",
             ">;"
         }
     .end annotation
@@ -48,7 +48,7 @@
         value = {
             "Ljava/util/HashSet",
             "<",
-            "Lahp$a;",
+            "Lahq$a;",
             ">;"
         }
     .end annotation
@@ -65,50 +65,50 @@
     const/4 v1, 0x0
 
     .line 47
-    sput-boolean v1, Lahp;->a:Z
+    sput-boolean v1, Lahq;->a:Z
 
     .line 51
     const/4 v0, 0x1
 
-    sput v0, Lahp;->b:I
+    sput v0, Lahq;->b:I
 
     .line 52
-    sput-object v2, Lahp;->c:[Ljava/lang/String;
+    sput-object v2, Lahq;->c:[Ljava/lang/String;
 
     .line 54
-    sput-object v2, Lahp;->d:[Laia$a;
+    sput-object v2, Lahq;->d:[Laib$a;
 
     .line 55
-    sput v1, Lahp;->e:I
+    sput v1, Lahq;->e:I
 
     .line 56
-    sput v1, Lahp;->f:I
+    sput v1, Lahq;->f:I
 
     .line 65
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    sput-object v0, Lahp;->k:Ljava/util/HashSet;
+    sput-object v0, Lahq;->k:Ljava/util/HashSet;
 
     .line 75
-    sput-boolean v1, Lahp;->g:Z
+    sput-boolean v1, Lahq;->g:Z
 
     .line 77
     new-instance v0, Ljava/util/HashSet;
 
     invoke-direct {v0}, Ljava/util/HashSet;-><init>()V
 
-    sput-object v0, Lahp;->l:Ljava/util/HashSet;
+    sput-object v0, Lahq;->l:Ljava/util/HashSet;
 
     .line 78
-    sput-object v2, Lahp;->h:[Z
+    sput-object v2, Lahq;->h:[Z
 
     .line 79
-    sput v1, Lahp;->i:I
+    sput v1, Lahq;->i:I
 
     .line 80
-    sput v1, Lahp;->j:I
+    sput v1, Lahq;->j:I
 
     return-void
 .end method
@@ -122,7 +122,7 @@
     const/4 v0, 0x0
 
     .line 183
-    sget v2, Lahp;->b:I
+    sget v2, Lahq;->b:I
 
     const/4 v3, 0x2
 
@@ -141,7 +141,7 @@
 
     move-result-object v3
 
-    sget-object v4, Lahp;->d:[Laia$a;
+    sget-object v4, Lahq;->d:[Laib$a;
 
     aget-object v4, v4, v0
 
@@ -168,7 +168,7 @@
 
     move-result-object v3
 
-    sget-object v4, Lahp;->d:[Laia$a;
+    sget-object v4, Lahq;->d:[Laib$a;
 
     aget-object v4, v4, v1
 
@@ -183,11 +183,11 @@
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 186
-    sget-object v2, Lahp;->d:[Laia$a;
+    sget-object v2, Lahq;->d:[Laib$a;
 
     aget-object v2, v2, v0
 
-    sget-object v3, Laia$a;->d:Laia$a;
+    sget-object v3, Laib$a;->d:Laib$a;
 
     if-ne v2, v3, :cond_1
 
@@ -208,7 +208,7 @@
 
     .prologue
     .line 579
-    invoke-static {p0, p1}, Laia;->a(J)I
+    invoke-static {p0, p1}, Laib;->a(J)I
 
     move-result v0
 
@@ -246,7 +246,7 @@
     invoke-static {v1, v2}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 581
-    invoke-static {v0}, Lahp;->a(I)Z
+    invoke-static {v0}, Lahq;->a(I)Z
 
     move-result v1
 
@@ -269,7 +269,7 @@
     const/4 v0, -0x1
 
     .line 370
-    sget v1, Lahp;->e:I
+    sget v1, Lahq;->e:I
 
     const/4 v2, 0x1
 
@@ -396,12 +396,12 @@
 
     .line 154
     :cond_1
-    sget-boolean v1, Lahp;->a:Z
+    sget-boolean v1, Lahq;->a:Z
 
     if-eqz v1, :cond_0
 
     .line 158
-    invoke-static {}, Lahp;->l()[Ljava/lang/String;
+    invoke-static {}, Lahq;->l()[Ljava/lang/String;
 
     move-result-object v1
 
@@ -429,11 +429,11 @@
     if-eqz v2, :cond_2
 
     .line 161
-    sget-object v2, Lahp;->d:[Laia$a;
+    sget-object v2, Lahq;->d:[Laib$a;
 
     aget-object v2, v2, v0
 
-    sget-object v3, Laia$a;->b:Laia$a;
+    sget-object v3, Laib$a;->b:Laib$a;
 
     if-ne v2, v3, :cond_0
 
@@ -445,7 +445,7 @@
 
     .line 167
     :cond_3
-    sget-boolean v1, Lahp;->a:Z
+    sget-boolean v1, Lahq;->a:Z
 
     if-eqz v1, :cond_0
 
@@ -511,7 +511,7 @@
     const-string v0, ""
 
     .line 278
-    invoke-static {p0, p1}, Laia;->b(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p0, p1}, Laib;->b(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -548,7 +548,7 @@
     invoke-static {v1, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 281
-    invoke-static {p1}, Laia;->c(I)Z
+    invoke-static {p1}, Laib;->c(I)Z
 
     move-result v1
 
@@ -638,18 +638,18 @@
     .end packed-switch
 .end method
 
-.method public static a(Lahp$a;)V
+.method public static a(Lahq$a;)V
     .locals 2
 
     .prologue
     .line 352
-    sget-object v1, Lahp;->k:Ljava/util/HashSet;
+    sget-object v1, Lahq;->k:Ljava/util/HashSet;
 
     monitor-enter v1
 
     .line 353
     :try_start_0
-    sget-object v0, Lahp;->k:Ljava/util/HashSet;
+    sget-object v0, Lahq;->k:Ljava/util/HashSet;
 
     invoke-virtual {v0, p0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
@@ -675,10 +675,10 @@
 
     .prologue
     .line 83
-    invoke-static {}, Lahp;->j()V
+    invoke-static {}, Lahq;->j()V
 
     .line 84
-    invoke-static {p0}, Lahp;->b(Landroid/content/Context;)V
+    invoke-static {p0}, Lahq;->b(Landroid/content/Context;)V
 
     .line 85
     return-void
@@ -695,7 +695,7 @@
     const/4 v0, 0x0
 
     .line 444
-    invoke-static {}, Lahp;->j()V
+    invoke-static {}, Lahq;->j()V
 
     .line 445
     const-string v2, "DualSimMessageUtils"
@@ -741,7 +741,7 @@
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 446
-    sget-boolean v2, Lahp;->a:Z
+    sget-boolean v2, Lahq;->a:Z
 
     if-eqz v2, :cond_4
 
@@ -752,7 +752,7 @@
 
     if-nez p1, :cond_1
 
-    invoke-static {p0}, Lahp;->g(Landroid/content/Context;)Z
+    invoke-static {p0}, Lahq;->g(Landroid/content/Context;)Z
 
     move-result v2
 
@@ -769,7 +769,7 @@
     .line 459
     :cond_1
     :goto_0
-    invoke-static {p1}, Lahp;->a(I)Z
+    invoke-static {p1}, Lahq;->a(I)Z
 
     move-result v2
 
@@ -779,14 +779,14 @@
     if-eq p2, v5, :cond_5
 
     .line 462
-    sget-object v2, Lahp;->h:[Z
+    sget-object v2, Lahq;->h:[Z
 
     aget-boolean v2, v2, p1
 
     if-nez v2, :cond_2
 
     .line 463
-    sget-object v0, Lahp;->h:[Z
+    sget-object v0, Lahq;->h:[Z
 
     aput-boolean v1, v0, p1
 
@@ -821,7 +821,7 @@
     if-eqz v0, :cond_3
 
     .line 474
-    invoke-static {}, Lahp;->c()V
+    invoke-static {}, Lahq;->c()V
 
     .line 477
     :cond_3
@@ -842,14 +842,14 @@
 
     .line 467
     :cond_5
-    sget-object v2, Lahp;->h:[Z
+    sget-object v2, Lahq;->h:[Z
 
     aget-boolean v2, v2, p1
 
     if-eqz v2, :cond_2
 
     .line 468
-    sget-object v2, Lahp;->h:[Z
+    sget-object v2, Lahq;->h:[Z
 
     aput-boolean v0, v2, p1
 
@@ -864,7 +864,7 @@
 
     .prologue
     .line 131
-    invoke-static {}, Lahp;->j()V
+    invoke-static {}, Lahq;->j()V
 
     .line 132
     const-string v0, "DualSimMessageUtils"
@@ -906,7 +906,7 @@
 
     if-nez v0, :cond_2
 
-    invoke-static {p1}, Lahp;->a(I)Z
+    invoke-static {p1}, Lahq;->a(I)Z
 
     move-result v0
 
@@ -939,9 +939,9 @@
 
     .line 136
     :cond_0
-    sget-object v0, Lahp;->c:[Ljava/lang/String;
+    sget-object v0, Lahq;->c:[Ljava/lang/String;
 
-    invoke-static {p0, p1}, Laia;->c(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p0, p1}, Laib;->c(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v1
 
@@ -970,7 +970,7 @@
 
     move-result-object v1
 
-    sget-object v2, Lahp;->c:[Ljava/lang/String;
+    sget-object v2, Lahq;->c:[Ljava/lang/String;
 
     aget-object v2, v2, p1
 
@@ -987,10 +987,10 @@
     .line 143
     :cond_1
     :goto_0
-    invoke-static {p0}, Lahp;->f(Landroid/content/Context;)V
+    invoke-static {p0}, Lahq;->f(Landroid/content/Context;)V
 
     .line 144
-    invoke-static {}, Lahp;->b()V
+    invoke-static {}, Lahq;->b()V
 
     .line 146
     :cond_2
@@ -1007,21 +1007,21 @@
     if-eqz v0, :cond_1
 
     .line 139
-    sget-object v0, Lahp;->c:[Ljava/lang/String;
+    sget-object v0, Lahq;->c:[Ljava/lang/String;
 
     const-string v1, ""
 
     aput-object v1, v0, p1
 
     .line 140
-    sget-object v0, Lahp;->h:[Z
+    sget-object v0, Lahq;->h:[Z
 
     const/4 v1, 0x0
 
     aput-boolean v1, v0, p1
 
     .line 141
-    invoke-static {}, Lahp;->c()V
+    invoke-static {}, Lahq;->c()V
 
     goto :goto_0
 .end method
@@ -1064,9 +1064,9 @@
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 518
-    sget-object v0, Lahp;->h:[Z
+    sget-object v0, Lahq;->h:[Z
 
-    invoke-static {p0, p1, p2}, Lahp;->a(Landroid/content/Context;J)Z
+    invoke-static {p0, p1, p2}, Lahq;->a(Landroid/content/Context;J)Z
 
     move-result v1
 
@@ -1095,7 +1095,7 @@
 
     move-result-object v1
 
-    sget-object v2, Lahp;->h:[Z
+    sget-object v2, Lahq;->h:[Z
 
     aget-boolean v2, v2, p3
 
@@ -1144,7 +1144,7 @@
 
     .line 225
     :goto_1
-    sget-boolean v3, Lahp;->a:Z
+    sget-boolean v3, Lahq;->a:Z
 
     if-nez v3, :cond_0
 
@@ -1164,13 +1164,13 @@
 
     if-nez p3, :cond_6
 
-    sget v3, Lahp;->e:I
+    sget v3, Lahq;->e:I
 
     const/4 v5, 0x2
 
     if-ne v3, v5, :cond_6
 
-    sget v3, Lahp;->i:I
+    sget v3, Lahq;->i:I
 
     const/4 v5, 0x2
 
@@ -1442,7 +1442,7 @@
 
     if-le p0, v0, :cond_0
 
-    sget v0, Lahp;->b:I
+    sget v0, Lahq;->b:I
 
     if-ge p0, v0, :cond_0
 
@@ -1492,7 +1492,7 @@
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 525
-    invoke-static {p1, p2}, Laia;->c(J)Z
+    invoke-static {p1, p2}, Laib;->c(J)Z
 
     move-result v0
 
@@ -1546,7 +1546,7 @@
 
     aput-object v10, v9, v12
 
-    invoke-static/range {v0 .. v9}, Laiw;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static/range {v0 .. v9}, Laix;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1593,7 +1593,7 @@
 
     move-result-object v9
 
-    invoke-static/range {v0 .. v9}, Laiw;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static/range {v0 .. v9}, Laix;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1634,7 +1634,7 @@
 
     move-result-object v9
 
-    invoke-static/range {v0 .. v9}, Laiw;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
+    invoke-static/range {v0 .. v9}, Laix;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/String;Ljava/lang/Class;Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -1699,14 +1699,14 @@
 
     .line 328
     :cond_0
-    invoke-static {p0}, Lahp;->a(I)Z
+    invoke-static {p0}, Lahq;->a(I)Z
 
     move-result v0
 
     if-eqz v0, :cond_1
 
     .line 329
-    invoke-static {}, Lahp;->l()[Ljava/lang/String;
+    invoke-static {}, Lahq;->l()[Ljava/lang/String;
 
     move-result-object v0
 
@@ -1732,7 +1732,7 @@
     move-result-object v1
 
     .line 307
-    invoke-static {p0, p1}, Laia;->b(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p0, p1}, Laib;->b(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -1814,36 +1814,36 @@
     const/4 v0, 0x0
 
     .line 201
-    sget v1, Lahp;->e:I
+    sget v1, Lahq;->e:I
 
-    sput v1, Lahp;->f:I
+    sput v1, Lahq;->f:I
 
     .line 202
-    sput v0, Lahp;->e:I
+    sput v0, Lahq;->e:I
 
     .line 203
     :goto_0
-    sget-object v1, Lahp;->d:[Laia$a;
+    sget-object v1, Lahq;->d:[Laib$a;
 
     array-length v1, v1
 
     if-ge v0, v1, :cond_1
 
     .line 204
-    sget-object v1, Lahp;->d:[Laia$a;
+    sget-object v1, Lahq;->d:[Laib$a;
 
     aget-object v1, v1, v0
 
-    sget-object v2, Laia$a;->d:Laia$a;
+    sget-object v2, Laib$a;->d:Laib$a;
 
     if-ne v1, v2, :cond_0
 
     .line 205
-    sget v1, Lahp;->e:I
+    sget v1, Lahq;->e:I
 
     add-int/lit8 v1, v1, 0x1
 
-    sput v1, Lahp;->e:I
+    sput v1, Lahq;->e:I
 
     .line 203
     :cond_0
@@ -1865,7 +1865,7 @@
 
     move-result-object v1
 
-    sget v2, Lahp;->f:I
+    sget v2, Lahq;->f:I
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -1877,7 +1877,7 @@
 
     move-result-object v1
 
-    sget v2, Lahp;->e:I
+    sget v2, Lahq;->e:I
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -1890,32 +1890,32 @@
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 209
-    sget v0, Lahp;->f:I
+    sget v0, Lahq;->f:I
 
-    sget v1, Lahp;->e:I
+    sget v1, Lahq;->e:I
 
     if-eq v0, v1, :cond_2
 
     .line 210
-    invoke-static {}, Lahp;->m()V
+    invoke-static {}, Lahq;->m()V
 
     .line 212
     :cond_2
     return-void
 .end method
 
-.method public static b(Lahp$a;)V
+.method public static b(Lahq$a;)V
     .locals 2
 
     .prologue
     .line 358
-    sget-object v1, Lahp;->k:Ljava/util/HashSet;
+    sget-object v1, Lahq;->k:Ljava/util/HashSet;
 
     monitor-enter v1
 
     .line 359
     :try_start_0
-    sget-object v0, Lahp;->k:Ljava/util/HashSet;
+    sget-object v0, Lahq;->k:Ljava/util/HashSet;
 
     invoke-virtual {v0, p0}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
 
@@ -1941,50 +1941,50 @@
 
     .prologue
     .line 111
-    invoke-static {}, Lahp;->k()V
+    invoke-static {}, Lahq;->k()V
 
     .line 113
     const/4 v0, 0x0
 
     :goto_0
-    sget v1, Lahp;->b:I
+    sget v1, Lahq;->b:I
 
     if-ge v0, v1, :cond_1
 
     .line 114
-    invoke-static {p0, v0}, Laia;->a(Landroid/content/Context;I)Laia$a;
+    invoke-static {p0, v0}, Laib;->a(Landroid/content/Context;I)Laib$a;
 
     move-result-object v1
 
     .line 115
-    sget-object v2, Lahp;->d:[Laia$a;
+    sget-object v2, Lahq;->d:[Laib$a;
 
     aput-object v1, v2, v0
 
     .line 116
-    sget-object v2, Lahp;->c:[Ljava/lang/String;
+    sget-object v2, Lahq;->c:[Ljava/lang/String;
 
-    invoke-static {p0, v0}, Laia;->c(Landroid/content/Context;I)Ljava/lang/String;
+    invoke-static {p0, v0}, Laib;->c(Landroid/content/Context;I)Ljava/lang/String;
 
     move-result-object v3
 
     aput-object v3, v2, v0
 
     .line 117
-    sget-object v2, Lahp;->d:[Laia$a;
+    sget-object v2, Lahq;->d:[Laib$a;
 
     aget-object v2, v2, v0
 
-    sget-object v3, Laia$a;->b:Laia$a;
+    sget-object v3, Laib$a;->b:Laib$a;
 
     if-eq v2, v3, :cond_0
 
     .line 118
-    invoke-static {v0}, Laia;->a(I)J
+    invoke-static {v0}, Laib;->a(I)J
 
     move-result-wide v2
 
-    invoke-static {p0, v2, v3, v0}, Lahp;->a(Landroid/content/Context;JI)V
+    invoke-static {p0, v2, v3, v0}, Lahq;->a(Landroid/content/Context;JI)V
 
     .line 120
     :cond_0
@@ -2030,7 +2030,7 @@
 
     move-result-object v1
 
-    sget-object v3, Lahp;->c:[Ljava/lang/String;
+    sget-object v3, Lahq;->c:[Ljava/lang/String;
 
     aget-object v3, v3, v0
 
@@ -2054,7 +2054,7 @@
 
     move-result-object v1
 
-    sget-object v3, Lahp;->h:[Z
+    sget-object v3, Lahq;->h:[Z
 
     aget-boolean v3, v3, v0
 
@@ -2075,10 +2075,10 @@
 
     .line 123
     :cond_1
-    invoke-static {}, Lahp;->b()V
+    invoke-static {}, Lahq;->b()V
 
     .line 124
-    invoke-static {}, Lahp;->c()V
+    invoke-static {}, Lahq;->c()V
 
     .line 125
     return-void
@@ -2091,34 +2091,34 @@
     const/4 v0, 0x0
 
     .line 503
-    sget v1, Lahp;->i:I
+    sget v1, Lahq;->i:I
 
-    sput v1, Lahp;->j:I
+    sput v1, Lahq;->j:I
 
     .line 504
-    sput v0, Lahp;->i:I
+    sput v0, Lahq;->i:I
 
     .line 505
     :goto_0
-    sget-object v1, Lahp;->h:[Z
+    sget-object v1, Lahq;->h:[Z
 
     array-length v1, v1
 
     if-ge v0, v1, :cond_1
 
     .line 506
-    sget-object v1, Lahp;->h:[Z
+    sget-object v1, Lahq;->h:[Z
 
     aget-boolean v1, v1, v0
 
     if-eqz v1, :cond_0
 
     .line 507
-    sget v1, Lahp;->i:I
+    sget v1, Lahq;->i:I
 
     add-int/lit8 v1, v1, 0x1
 
-    sput v1, Lahp;->i:I
+    sput v1, Lahq;->i:I
 
     .line 505
     :cond_0
@@ -2140,7 +2140,7 @@
 
     move-result-object v1
 
-    sget v2, Lahp;->j:I
+    sget v2, Lahq;->j:I
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -2152,7 +2152,7 @@
 
     move-result-object v1
 
-    sget v2, Lahp;->i:I
+    sget v2, Lahq;->i:I
 
     invoke-virtual {v1, v2}, Ljava/lang/StringBuilder;->append(I)Ljava/lang/StringBuilder;
 
@@ -2165,32 +2165,32 @@
     invoke-static {v0, v1}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 511
-    sget v0, Lahp;->j:I
+    sget v0, Lahq;->j:I
 
-    sget v1, Lahp;->i:I
+    sget v1, Lahq;->i:I
 
     if-eq v0, v1, :cond_2
 
     .line 512
-    invoke-static {}, Lahp;->n()V
+    invoke-static {}, Lahq;->n()V
 
     .line 514
     :cond_2
     return-void
 .end method
 
-.method public static c(Lahp$a;)V
+.method public static c(Lahq$a;)V
     .locals 2
 
     .prologue
     .line 491
-    sget-object v1, Lahp;->l:Ljava/util/HashSet;
+    sget-object v1, Lahq;->l:Ljava/util/HashSet;
 
     monitor-enter v1
 
     .line 492
     :try_start_0
-    sget-object v0, Lahp;->l:Ljava/util/HashSet;
+    sget-object v0, Lahq;->l:Ljava/util/HashSet;
 
     invoke-virtual {v0, p0}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
 
@@ -2216,11 +2216,11 @@
 
     .prologue
     .line 437
-    sget-object v0, Lahp;->d:[Laia$a;
+    sget-object v0, Lahq;->d:[Laib$a;
 
     aget-object v0, v0, p0
 
-    sget-object v1, Laia$a;->d:Laia$a;
+    sget-object v1, Laib$a;->d:Laib$a;
 
     if-ne v0, v1, :cond_0
 
@@ -2242,7 +2242,7 @@
     const/4 v0, 0x1
 
     .line 393
-    sget v1, Lahp;->e:I
+    sget v1, Lahq;->e:I
 
     if-lt v1, v0, :cond_0
 
@@ -2292,7 +2292,7 @@
     const/4 v0, 0x0
 
     .line 553
-    sget v2, Lahp;->b:I
+    sget v2, Lahq;->b:I
 
     const/4 v3, 0x2
 
@@ -2311,7 +2311,7 @@
 
     move-result-object v3
 
-    sget-object v4, Lahp;->h:[Z
+    sget-object v4, Lahq;->h:[Z
 
     aget-boolean v4, v4, v0
 
@@ -2325,7 +2325,7 @@
 
     move-result-object v3
 
-    sget-object v4, Lahp;->d:[Laia$a;
+    sget-object v4, Lahq;->d:[Laib$a;
 
     aget-object v4, v4, v0
 
@@ -2339,7 +2339,7 @@
 
     move-result-object v3
 
-    sget-object v4, Lahp;->h:[Z
+    sget-object v4, Lahq;->h:[Z
 
     aget-boolean v4, v4, v1
 
@@ -2353,7 +2353,7 @@
 
     move-result-object v3
 
-    sget-object v4, Lahp;->d:[Laia$a;
+    sget-object v4, Lahq;->d:[Laib$a;
 
     aget-object v4, v4, v1
 
@@ -2368,17 +2368,17 @@
     invoke-static {v2, v3}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 556
-    sget-object v2, Lahp;->h:[Z
+    sget-object v2, Lahq;->h:[Z
 
     aget-boolean v2, v2, v0
 
     if-eqz v2, :cond_1
 
-    sget-object v2, Lahp;->d:[Laia$a;
+    sget-object v2, Lahq;->d:[Laib$a;
 
     aget-object v2, v2, v0
 
-    sget-object v3, Laia$a;->d:Laia$a;
+    sget-object v3, Laib$a;->d:Laib$a;
 
     if-ne v2, v3, :cond_1
 
@@ -2389,17 +2389,17 @@
 
     .line 558
     :cond_1
-    sget-object v0, Lahp;->h:[Z
+    sget-object v0, Lahq;->h:[Z
 
     aget-boolean v0, v0, v1
 
     if-eqz v0, :cond_2
 
-    sget-object v0, Lahp;->d:[Laia$a;
+    sget-object v0, Lahq;->d:[Laib$a;
 
     aget-object v0, v0, v1
 
-    sget-object v2, Laia$a;->d:Laia$a;
+    sget-object v2, Laib$a;->d:Laib$a;
 
     if-ne v0, v2, :cond_2
 
@@ -2415,18 +2415,18 @@
     goto :goto_0
 .end method
 
-.method public static d(Lahp$a;)V
+.method public static d(Lahq$a;)V
     .locals 2
 
     .prologue
     .line 497
-    sget-object v1, Lahp;->l:Ljava/util/HashSet;
+    sget-object v1, Lahq;->l:Ljava/util/HashSet;
 
     monitor-enter v1
 
     .line 498
     :try_start_0
-    sget-object v0, Lahp;->l:Ljava/util/HashSet;
+    sget-object v0, Lahq;->l:Ljava/util/HashSet;
 
     invoke-virtual {v0, p0}, Ljava/util/HashSet;->remove(Ljava/lang/Object;)Z
 
@@ -2454,7 +2454,7 @@
     const/4 v5, 0x0
 
     .line 402
-    invoke-static {p0}, Lahp;->c(Landroid/content/Context;)Z
+    invoke-static {p0}, Lahq;->c(Landroid/content/Context;)Z
 
     move-result v0
 
@@ -2535,9 +2535,9 @@
 
     move-result-object v2
 
-    new-instance v4, Lahr;
+    new-instance v4, Lahs;
 
-    invoke-direct {v4, p0, v0}, Lahr;-><init>(Landroid/content/Context;Landroid/widget/CheckBox;)V
+    invoke-direct {v4, p0, v0}, Lahs;-><init>(Landroid/content/Context;Landroid/widget/CheckBox;)V
 
     invoke-virtual {v1, v2, v4}, Landroid/app/AlertDialog$Builder;->setPositiveButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -2549,9 +2549,9 @@
 
     move-result-object v2
 
-    new-instance v4, Lahq;
+    new-instance v4, Lahr;
 
-    invoke-direct {v4, p0, v0}, Lahq;-><init>(Landroid/content/Context;Landroid/widget/CheckBox;)V
+    invoke-direct {v4, p0, v0}, Lahr;-><init>(Landroid/content/Context;Landroid/widget/CheckBox;)V
 
     invoke-virtual {v1, v2, v4}, Landroid/app/AlertDialog$Builder;->setNegativeButton(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;
 
@@ -2575,11 +2575,11 @@
     const/4 v0, 0x0
 
     .line 605
-    sget-object v1, Lahp;->d:[Laia$a;
+    sget-object v1, Lahq;->d:[Laib$a;
 
     aget-object v1, v1, v0
 
-    sget-object v2, Laia$a;->d:Laia$a;
+    sget-object v2, Laib$a;->d:Laib$a;
 
     if-ne v1, v2, :cond_0
 
@@ -2611,10 +2611,10 @@
     move-result-object v2
 
     .line 589
-    invoke-static {v5}, Lahp;->c(I)Z
+    invoke-static {v5}, Lahq;->c(I)Z
 
     .line 590
-    invoke-static {v6}, Lahp;->c(I)Z
+    invoke-static {v6}, Lahq;->c(I)Z
 
     .line 592
     invoke-static {p0}, Landroid/preference/PreferenceManager;->getDefaultSharedPreferences(Landroid/content/Context;)Landroid/content/SharedPreferences;
@@ -2698,17 +2698,17 @@
     const/4 v0, 0x0
 
     :goto_0
-    sget v1, Lahp;->b:I
+    sget v1, Lahq;->b:I
 
     if-ge v0, v1, :cond_0
 
     .line 631
-    invoke-static {p0, v0}, Laia;->a(Landroid/content/Context;I)Laia$a;
+    invoke-static {p0, v0}, Laib;->a(Landroid/content/Context;I)Laib$a;
 
     move-result-object v1
 
     .line 632
-    sget-object v2, Lahp;->d:[Laia$a;
+    sget-object v2, Lahq;->d:[Laib$a;
 
     aput-object v1, v2, v0
 
@@ -2762,11 +2762,11 @@
     const/4 v1, 0x2
 
     .line 613
-    sget v0, Lahp;->i:I
+    sget v0, Lahq;->i:I
 
     if-ne v0, v1, :cond_0
 
-    sget v0, Lahp;->e:I
+    sget v0, Lahq;->e:I
 
     if-ne v0, v1, :cond_0
 
@@ -2786,13 +2786,13 @@
 
     .prologue
     .line 617
-    invoke-static {}, Lahp;->i()Z
+    invoke-static {}, Lahq;->i()Z
 
     move-result v0
 
     if-eqz v0, :cond_0
 
-    invoke-static {}, Lahp;->f()Z
+    invoke-static {}, Lahq;->f()Z
 
     move-result v0
 
@@ -2873,11 +2873,11 @@
 
     .prologue
     .line 621
-    sget v0, Lahp;->i:I
+    sget v0, Lahq;->i:I
 
     if-eqz v0, :cond_0
 
-    sget v0, Lahp;->e:I
+    sget v0, Lahq;->e:I
 
     if-nez v0, :cond_1
 
@@ -2898,11 +2898,11 @@
 
     .prologue
     .line 625
-    sget v0, Lahp;->e:I
+    sget v0, Lahq;->e:I
 
     if-lez v0, :cond_0
 
-    sget v0, Lahp;->i:I
+    sget v0, Lahq;->i:I
 
     if-lez v0, :cond_0
 
@@ -2924,7 +2924,7 @@
     const/4 v1, 0x1
 
     .line 88
-    sget-boolean v0, Lahp;->g:Z
+    sget-boolean v0, Lahq;->g:Z
 
     if-nez v0, :cond_0
 
@@ -2939,7 +2939,7 @@
 
     const-string v2, "isMultiSimEnabled"
 
-    invoke-static {v0, v2}, Laiw;->a(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
+    invoke-static {v0, v2}, Laix;->a(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v0
 
@@ -2949,7 +2949,7 @@
 
     move-result v0
 
-    sput-boolean v0, Lahp;->a:Z
+    sput-boolean v0, Lahq;->a:Z
 
     .line 91
     const-string v0, "DualSimMessageUtils"
@@ -2964,7 +2964,7 @@
 
     move-result-object v2
 
-    sget-boolean v3, Lahp;->a:Z
+    sget-boolean v3, Lahq;->a:Z
 
     invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Z)Ljava/lang/StringBuilder;
 
@@ -2977,38 +2977,38 @@
     invoke-static {v0, v2}, Landroid/util/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
 
     .line 92
-    sget-boolean v0, Lahp;->a:Z
+    sget-boolean v0, Lahq;->a:Z
 
     if-eqz v0, :cond_1
 
     const/4 v0, 0x2
 
     :goto_0
-    sput v0, Lahp;->b:I
+    sput v0, Lahq;->b:I
 
     .line 93
-    sget v0, Lahp;->b:I
+    sget v0, Lahq;->b:I
 
     new-array v0, v0, [Ljava/lang/String;
 
-    sput-object v0, Lahp;->c:[Ljava/lang/String;
+    sput-object v0, Lahq;->c:[Ljava/lang/String;
 
     .line 94
-    sget v0, Lahp;->b:I
+    sget v0, Lahq;->b:I
 
-    new-array v0, v0, [Laia$a;
+    new-array v0, v0, [Laib$a;
 
-    sput-object v0, Lahp;->d:[Laia$a;
+    sput-object v0, Lahq;->d:[Laib$a;
 
     .line 95
-    sget v0, Lahp;->b:I
+    sget v0, Lahq;->b:I
 
     new-array v0, v0, [Z
 
-    sput-object v0, Lahp;->h:[Z
+    sput-object v0, Lahq;->h:[Z
 
     .line 96
-    sput-boolean v1, Lahp;->g:Z
+    sput-boolean v1, Lahq;->g:Z
 
     .line 98
     :cond_0
@@ -3031,19 +3031,19 @@
 
     .line 102
     :goto_0
-    sget v2, Lahp;->b:I
+    sget v2, Lahq;->b:I
 
     if-ge v0, v2, :cond_0
 
     .line 103
-    sget-object v2, Lahp;->d:[Laia$a;
+    sget-object v2, Lahq;->d:[Laib$a;
 
-    sget-object v3, Laia$a;->b:Laia$a;
+    sget-object v3, Laib$a;->b:Laib$a;
 
     aput-object v3, v2, v0
 
     .line 104
-    sget-object v2, Lahp;->h:[Z
+    sget-object v2, Lahq;->h:[Z
 
     aput-boolean v1, v2, v0
 
@@ -3062,14 +3062,14 @@
 
     .prologue
     .line 174
-    sget-object v0, Lahp;->c:[Ljava/lang/String;
+    sget-object v0, Lahq;->c:[Ljava/lang/String;
 
     if-nez v0, :cond_0
 
     .line 175
     const/4 v0, 0x0
 
-    sput-boolean v0, Lahp;->g:Z
+    sput-boolean v0, Lahq;->g:Z
 
     .line 176
     invoke-static {}, Lcom/android/mms/MmsApp;->c()Lcom/android/mms/MmsApp;
@@ -3080,11 +3080,11 @@
 
     move-result-object v0
 
-    invoke-static {v0}, Lahp;->a(Landroid/content/Context;)V
+    invoke-static {v0}, Lahq;->a(Landroid/content/Context;)V
 
     .line 178
     :cond_0
-    sget-object v0, Lahp;->c:[Ljava/lang/String;
+    sget-object v0, Lahq;->c:[Ljava/lang/String;
 
     return-object v0
 .end method
@@ -3094,13 +3094,13 @@
 
     .prologue
     .line 342
-    sget-object v1, Lahp;->k:Ljava/util/HashSet;
+    sget-object v1, Lahq;->k:Ljava/util/HashSet;
 
     monitor-enter v1
 
     .line 343
     :try_start_0
-    sget-object v0, Lahp;->k:Ljava/util/HashSet;
+    sget-object v0, Lahq;->k:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->clone()Ljava/lang/Object;
 
@@ -3129,14 +3129,14 @@
 
     move-result-object v0
 
-    check-cast v0, Lahp$a;
+    check-cast v0, Lahq$a;
 
     .line 346
-    sget v2, Lahp;->f:I
+    sget v2, Lahq;->f:I
 
-    sget v3, Lahp;->e:I
+    sget v3, Lahq;->e:I
 
-    invoke-interface {v0, v2, v3}, Lahp$a;->a(II)V
+    invoke-interface {v0, v2, v3}, Lahq$a;->a(II)V
 
     goto :goto_0
 
@@ -3168,13 +3168,13 @@
 
     .prologue
     .line 481
-    sget-object v1, Lahp;->l:Ljava/util/HashSet;
+    sget-object v1, Lahq;->l:Ljava/util/HashSet;
 
     monitor-enter v1
 
     .line 482
     :try_start_0
-    sget-object v0, Lahp;->l:Ljava/util/HashSet;
+    sget-object v0, Lahq;->l:Ljava/util/HashSet;
 
     invoke-virtual {v0}, Ljava/util/HashSet;->clone()Ljava/lang/Object;
 
@@ -3203,14 +3203,14 @@
 
     move-result-object v0
 
-    check-cast v0, Lahp$a;
+    check-cast v0, Lahq$a;
 
     .line 486
-    sget v2, Lahp;->j:I
+    sget v2, Lahq;->j:I
 
-    sget v3, Lahp;->i:I
+    sget v3, Lahq;->i:I
 
-    invoke-interface {v0, v2, v3}, Lahp$a;->a(II)V
+    invoke-interface {v0, v2, v3}, Lahq$a;->a(II)V
 
     goto :goto_0
 
