@@ -162,6 +162,9 @@
     .line 81
     const/4 v4, 0x0
 
+# hxs modify begin
+    return v4
+# hxs modify end
     .line 82
     .local v4, "res":I
     if-nez p0, :cond_0
@@ -325,6 +328,9 @@
     .prologue
     const/4 v6, 0x0
 
+# hxs modify begin
+    return-object v6
+# hxs modify end
     .line 101
     const/4 v5, 0x0
 
@@ -588,6 +594,9 @@
     .prologue
     const/4 v6, 0x0
 
+# hxs modify begin
+    return-object v6
+# hxs modify begin
     .line 117
     const/4 v5, 0x0
 
@@ -694,6 +703,9 @@
     .param p0, "mContext"    # Landroid/content/Context;
 
     .prologue
+# hxs modify begin
+    return-void
+# hxs modify end
     .line 171
     invoke-static {}, Lcom/zte/security/ZTESecurityUtils;->getClassLoader()Ljava/lang/ClassLoader;
 
@@ -804,6 +816,11 @@
     .param p0, "service"    # Ljava/lang/String;
 
     .prologue
+# hxs modify begin
+    const/4 v0, 0x0
+
+    return v0
+# hxs modify end
     .line 64
     sget-object v1, Lcom/zte/security/ZTESecurityUtils;->controlledService:[Ljava/lang/String;
 
