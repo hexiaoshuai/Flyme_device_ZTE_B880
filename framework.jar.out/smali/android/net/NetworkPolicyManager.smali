@@ -14,11 +14,19 @@
 
 .field public static final POLICY_NONE:I = 0x0
 
+.field public static final POLICY_REJECT_APP_NET_MOBILE:I = 0x2
+
+.field public static final POLICY_REJECT_APP_NET_WIFI:I = 0x4
+
 .field public static final POLICY_REJECT_METERED_BACKGROUND:I = 0x1
 
 .field public static final RULE_ALLOW_ALL:I = 0x0
 
 .field public static final RULE_REJECT_METERED:I = 0x1
+
+.field public static final RULE_REJECT_METERED_MOBILE:I = 0x2
+
+.field public static final RULE_REJECT_METERED_WIFI:I = 0x4
 
 
 # instance fields
